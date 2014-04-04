@@ -1,0 +1,644 @@
+<html>
+<body>
+<pre>
+<h1>礦ision Build Log</h1>
+<h2>Project:</h2>
+D:\360data\重要数据\桌面\移动平台京信\Project\LED.uvproj
+Project File Date:  11/26/2013
+
+<h2>Output:</h2>
+Build target 'STM32F407'
+compiling main.c...
+..\MyLibaries\key.h(3): warning:  #1-D: last line of file ends without a newline
+..\User\main.c(64): warning:  #177-D: variable "k" was declared but never referenced
+..\User\main.c(158): warning:  #1-D: last line of file ends without a newline
+linking...
+Program Size: Code=24592 RO-data=3084 RW-data=56 ZI-data=77840  
+FromELF: creating hex file...
+"LED.axf" - 0 Error(s), 3 Warning(s).
+Load "D:\\360data\\重要数据\\桌面\\移动平台京信\\Project\\LED.axf" 
+Set JLink Project File to "D:\360data\重要数据\桌面\移动平台京信\Project\JLinkSettings.ini"
+* JLink Info: Device "STM32F407VG" selected (1024 KB flash, 128 KB RAM).
+ 
+JLink info:
+------------
+DLL: V4.68a, compiled Apr 12 2013 13:26:50
+Firmware: J-Link ARM V8 compiled Nov 14 2012 22:34:52
+Hardware: V8.00
+S/N : 17935099 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash 
+ 
+* JLink Info: Found SWD-DP with ID 0x2BA01477
+* JLink Info: Found SWD-DP with ID 0x2BA01477
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info: FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: Found Cortex-M4 r0p1, Little endian.
+ROMTableAddr = 0xE00FF003
+ 
+Target info:
+------------
+Device: STM32F407VG
+VTarget = 3.300V
+State of Pins: 
+TCK: 0, TDI: 0, TDO: 0, TMS: 1, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          4
+JTAG speed: 2000 kHz
+ 
+Erase Done.
+***JLink Error: Can not read register 15 (R15) while CPU is running
+**JLink Warning: CPU could not be halted
+***JLink Error: Can not read register 20 (CFBP) while CPU is running
+Programming Failed!
+Load "D:\\360data\\重要数据\\桌面\\移动平台京信\\Project\\LED.axf" 
+Set JLink Project File to "D:\360data\重要数据\桌面\移动平台京信\Project\JLinkSettings.ini"
+* JLink Info: Device "STM32F407VG" selected (1024 KB flash, 128 KB RAM).
+ 
+JLink info:
+------------
+DLL: V4.68a, compiled Apr 12 2013 13:26:50
+Firmware: J-Link ARM V8 compiled Nov 14 2012 22:34:52
+Hardware: V8.00
+S/N : 17935099 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash 
+ 
+* JLink Info: Found SWD-DP with ID 0x2BA01477
+* JLink Info: Found SWD-DP with ID 0x2BA01477
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info: FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: Found Cortex-M4 r0p1, Little endian.
+ROMTableAddr = 0xE00FF003
+ 
+Target info:
+------------
+Device: STM32F407VG
+VTarget = 3.300V
+State of Pins: 
+TCK: 0, TDI: 0, TDO: 0, TMS: 1, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          4
+JTAG speed: 2000 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.
+Application running ...
+Load "D:\\360data\\重要数据\\桌面\\移动平台京信\\Project\\LED.axf" 
+Set JLink Project File to "D:\360data\重要数据\桌面\移动平台京信\Project\JLinkSettings.ini"
+* JLink Info: Device "STM32F407VG" selected (1024 KB flash, 128 KB RAM).
+ 
+JLink info:
+------------
+DLL: V4.68a, compiled Apr 12 2013 13:26:50
+Firmware: J-Link ARM V8 compiled Nov 14 2012 22:34:52
+Hardware: V8.00
+S/N : 17935099 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash 
+ 
+* JLink Info: Found SWD-DP with ID 0x2BA01477
+* JLink Info: Found SWD-DP with ID 0x2BA01477
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info: FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: Found Cortex-M4 r0p1, Little endian.
+ROMTableAddr = 0xE00FF003
+ 
+Target info:
+------------
+Device: STM32F407VG
+VTarget = 3.300V
+State of Pins: 
+TCK: 0, TDI: 0, TDO: 0, TMS: 1, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          4
+JTAG speed: 2000 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.
+Application running ...
+Build target 'STM32F407'
+compiling main.c...
+..\MyLibaries\key.h(3): warning:  #1-D: last line of file ends without a newline
+..\User\main.c(64): warning:  #177-D: variable "k" was declared but never referenced
+..\User\main.c(158): warning:  #1-D: last line of file ends without a newline
+linking...
+Program Size: Code=24232 RO-data=3084 RW-data=56 ZI-data=1040  
+FromELF: creating hex file...
+"LED.axf" - 0 Error(s), 3 Warning(s).
+Load "D:\\360data\\重要数据\\桌面\\移动平台京信\\Project\\LED.axf" 
+Set JLink Project File to "D:\360data\重要数据\桌面\移动平台京信\Project\JLinkSettings.ini"
+* JLink Info: Device "STM32F407VG" selected (1024 KB flash, 128 KB RAM).
+ 
+JLink info:
+------------
+DLL: V4.68a, compiled Apr 12 2013 13:26:50
+Firmware: J-Link ARM V8 compiled Nov 14 2012 22:34:52
+Hardware: V8.00
+S/N : 17935099 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash 
+ 
+* JLink Info: Found SWD-DP with ID 0x2BA01477
+* JLink Info: Found SWD-DP with ID 0x2BA01477
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info: FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: Found Cortex-M4 r0p1, Little endian.
+ROMTableAddr = 0xE00FF003
+ 
+Target info:
+------------
+Device: STM32F407VG
+VTarget = 3.306V
+State of Pins: 
+TCK: 0, TDI: 0, TDO: 0, TMS: 1, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          4
+JTAG speed: 2000 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.
+Application running ...
+Build target 'STM32F407'
+compiling main.c...
+..\MyLibaries\key.h(3): warning:  #1-D: last line of file ends without a newline
+..\User\main.c(64): warning:  #177-D: variable "k" was declared but never referenced
+..\User\main.c(158): warning:  #1-D: last line of file ends without a newline
+linking...
+Program Size: Code=24256 RO-data=3084 RW-data=56 ZI-data=1040  
+FromELF: creating hex file...
+"LED.axf" - 0 Error(s), 3 Warning(s).
+Load "D:\\360data\\重要数据\\桌面\\移动平台京信\\Project\\LED.axf" 
+Set JLink Project File to "D:\360data\重要数据\桌面\移动平台京信\Project\JLinkSettings.ini"
+* JLink Info: Device "STM32F407VG" selected (1024 KB flash, 128 KB RAM).
+ 
+JLink info:
+------------
+DLL: V4.68a, compiled Apr 12 2013 13:26:50
+Firmware: J-Link ARM V8 compiled Nov 14 2012 22:34:52
+Hardware: V8.00
+S/N : 17935099 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash 
+ 
+* JLink Info: Found SWD-DP with ID 0x2BA01477
+* JLink Info: Found SWD-DP with ID 0x2BA01477
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info: FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: Found Cortex-M4 r0p1, Little endian.
+ROMTableAddr = 0xE00FF003
+ 
+Target info:
+------------
+Device: STM32F407VG
+VTarget = 3.306V
+State of Pins: 
+TCK: 0, TDI: 0, TDO: 0, TMS: 1, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          4
+JTAG speed: 2000 kHz
+ 
+Erase Done.
+***JLink Error: Can not read register 0 (R0) while CPU is running
+Programming Done.
+Verify OK.
+Application running ...
+Build target 'STM32F407'
+compiling main.c...
+..\MyLibaries\key.h(3): warning:  #1-D: last line of file ends without a newline
+..\User\main.c(64): warning:  #177-D: variable "k" was declared but never referenced
+..\User\main.c(158): warning:  #1-D: last line of file ends without a newline
+linking...
+Program Size: Code=24248 RO-data=3084 RW-data=56 ZI-data=1040  
+FromELF: creating hex file...
+"LED.axf" - 0 Error(s), 3 Warning(s).
+Load "D:\\360data\\重要数据\\桌面\\移动平台京信\\Project\\LED.axf" 
+Set JLink Project File to "D:\360data\重要数据\桌面\移动平台京信\Project\JLinkSettings.ini"
+* JLink Info: Device "STM32F407VG" selected (1024 KB flash, 128 KB RAM).
+ 
+JLink info:
+------------
+DLL: V4.68a, compiled Apr 12 2013 13:26:50
+Firmware: J-Link ARM V8 compiled Nov 14 2012 22:34:52
+Hardware: V8.00
+S/N : 17935099 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash 
+ 
+* JLink Info: Found SWD-DP with ID 0x2BA01477
+* JLink Info: Found SWD-DP with ID 0x2BA01477
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info: FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: Found Cortex-M4 r0p1, Little endian.
+ROMTableAddr = 0xE00FF003
+ 
+Target info:
+------------
+Device: STM32F407VG
+VTarget = 3.306V
+State of Pins: 
+TCK: 0, TDI: 0, TDO: 0, TMS: 1, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          4
+JTAG speed: 2000 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.
+Application running ...
+Build target 'STM32F407'
+compiling main.c...
+..\MyLibaries\key.h(3): warning:  #1-D: last line of file ends without a newline
+..\User\main.c(64): warning:  #177-D: variable "k" was declared but never referenced
+..\User\main.c(158): warning:  #1-D: last line of file ends without a newline
+linking...
+Program Size: Code=24256 RO-data=3084 RW-data=56 ZI-data=1040  
+FromELF: creating hex file...
+"LED.axf" - 0 Error(s), 3 Warning(s).
+Load "D:\\360data\\重要数据\\桌面\\移动平台京信\\Project\\LED.axf" 
+Set JLink Project File to "D:\360data\重要数据\桌面\移动平台京信\Project\JLinkSettings.ini"
+* JLink Info: Device "STM32F407VG" selected (1024 KB flash, 128 KB RAM).
+ 
+JLink info:
+------------
+DLL: V4.68a, compiled Apr 12 2013 13:26:50
+Firmware: J-Link ARM V8 compiled Nov 14 2012 22:34:52
+Hardware: V8.00
+S/N : 17935099 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash 
+ 
+* JLink Info: Found SWD-DP with ID 0x2BA01477
+* JLink Info: Found SWD-DP with ID 0x2BA01477
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info: FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: Found Cortex-M4 r0p1, Little endian.
+ROMTableAddr = 0xE00FF003
+ 
+Target info:
+------------
+Device: STM32F407VG
+VTarget = 3.306V
+State of Pins: 
+TCK: 0, TDI: 0, TDO: 0, TMS: 1, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          4
+JTAG speed: 2000 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.
+Application running ...
+Build target 'STM32F407'
+compiling main.c...
+..\MyLibaries\key.h(3): warning:  #1-D: last line of file ends without a newline
+..\User\main.c(64): warning:  #177-D: variable "k" was declared but never referenced
+..\User\main.c(158): warning:  #1-D: last line of file ends without a newline
+linking...
+Program Size: Code=24256 RO-data=3084 RW-data=56 ZI-data=1040  
+FromELF: creating hex file...
+"LED.axf" - 0 Error(s), 3 Warning(s).
+Load "D:\\360data\\重要数据\\桌面\\移动平台京信\\Project\\LED.axf" 
+Set JLink Project File to "D:\360data\重要数据\桌面\移动平台京信\Project\JLinkSettings.ini"
+* JLink Info: Device "STM32F407VG" selected (1024 KB flash, 128 KB RAM).
+ 
+JLink info:
+------------
+DLL: V4.68a, compiled Apr 12 2013 13:26:50
+Firmware: J-Link ARM V8 compiled Nov 14 2012 22:34:52
+Hardware: V8.00
+S/N : 17935099 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash 
+ 
+* JLink Info: Found SWD-DP with ID 0x2BA01477
+* JLink Info: Found SWD-DP with ID 0x2BA01477
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info: FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: Found Cortex-M4 r0p1, Little endian.
+ROMTableAddr = 0xE00FF003
+ 
+Target info:
+------------
+Device: STM32F407VG
+VTarget = 3.300V
+State of Pins: 
+TCK: 0, TDI: 0, TDO: 0, TMS: 1, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          4
+JTAG speed: 2000 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.
+Application running ...
+Build target 'STM32F407'
+compiling main.c...
+..\MyLibaries\key.h(3): warning:  #1-D: last line of file ends without a newline
+..\User\main.c(64): warning:  #177-D: variable "k" was declared but never referenced
+..\User\main.c(158): warning:  #1-D: last line of file ends without a newline
+linking...
+Program Size: Code=24256 RO-data=3084 RW-data=56 ZI-data=1040  
+FromELF: creating hex file...
+"LED.axf" - 0 Error(s), 3 Warning(s).
+Load "D:\\360data\\重要数据\\桌面\\移动平台京信\\Project\\LED.axf" 
+Set JLink Project File to "D:\360data\重要数据\桌面\移动平台京信\Project\JLinkSettings.ini"
+* JLink Info: Device "STM32F407VG" selected (1024 KB flash, 128 KB RAM).
+ 
+JLink info:
+------------
+DLL: V4.68a, compiled Apr 12 2013 13:26:50
+Firmware: J-Link ARM V8 compiled Nov 14 2012 22:34:52
+Hardware: V8.00
+S/N : 17935099 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash 
+ 
+* JLink Info: Found SWD-DP with ID 0x2BA01477
+* JLink Info: Found SWD-DP with ID 0x2BA01477
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info: FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: Found Cortex-M4 r0p1, Little endian.
+ROMTableAddr = 0xE00FF003
+ 
+Target info:
+------------
+Device: STM32F407VG
+VTarget = 3.306V
+State of Pins: 
+TCK: 0, TDI: 0, TDO: 0, TMS: 1, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          4
+JTAG speed: 2000 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.
+Application running ...
+Build target 'STM32F407'
+compiling main.c...
+..\MyLibaries\key.h(3): warning:  #1-D: last line of file ends without a newline
+..\User\main.c(64): warning:  #177-D: variable "k" was declared but never referenced
+..\User\main.c(158): warning:  #1-D: last line of file ends without a newline
+linking...
+Program Size: Code=24256 RO-data=3084 RW-data=56 ZI-data=1040  
+FromELF: creating hex file...
+"LED.axf" - 0 Error(s), 3 Warning(s).
+Load "D:\\360data\\重要数据\\桌面\\移动平台京信\\Project\\LED.axf" 
+Set JLink Project File to "D:\360data\重要数据\桌面\移动平台京信\Project\JLinkSettings.ini"
+* JLink Info: Device "STM32F407VG" selected (1024 KB flash, 128 KB RAM).
+ 
+JLink info:
+------------
+DLL: V4.68a, compiled Apr 12 2013 13:26:50
+Firmware: J-Link ARM V8 compiled Nov 14 2012 22:34:52
+Hardware: V8.00
+S/N : 17935099 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash 
+ 
+* JLink Info: Found SWD-DP with ID 0x2BA01477
+* JLink Info: Found SWD-DP with ID 0x2BA01477
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info: FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: Found Cortex-M4 r0p1, Little endian.
+ROMTableAddr = 0xE00FF003
+ 
+Target info:
+------------
+Device: STM32F407VG
+VTarget = 3.306V
+State of Pins: 
+TCK: 0, TDI: 0, TDO: 0, TMS: 1, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          4
+JTAG speed: 2000 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.
+Application running ...
+Build target 'STM32F407'
+compiling main.c...
+..\MyLibaries\key.h(3): warning:  #1-D: last line of file ends without a newline
+..\User\main.c(64): warning:  #177-D: variable "k" was declared but never referenced
+..\User\main.c(158): warning:  #1-D: last line of file ends without a newline
+linking...
+Program Size: Code=24248 RO-data=3084 RW-data=56 ZI-data=1040  
+FromELF: creating hex file...
+"LED.axf" - 0 Error(s), 3 Warning(s).
+Load "D:\\360data\\重要数据\\桌面\\移动平台京信\\Project\\LED.axf" 
+Set JLink Project File to "D:\360data\重要数据\桌面\移动平台京信\Project\JLinkSettings.ini"
+* JLink Info: Device "STM32F407VG" selected (1024 KB flash, 128 KB RAM).
+ 
+JLink info:
+------------
+DLL: V4.68a, compiled Apr 12 2013 13:26:50
+Firmware: J-Link ARM V8 compiled Nov 14 2012 22:34:52
+Hardware: V8.00
+S/N : 17935099 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash 
+ 
+* JLink Info: Found SWD-DP with ID 0x2BA01477
+* JLink Info: Found SWD-DP with ID 0x2BA01477
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info: FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: Found Cortex-M4 r0p1, Little endian.
+ROMTableAddr = 0xE00FF003
+ 
+Target info:
+------------
+Device: STM32F407VG
+VTarget = 3.300V
+State of Pins: 
+TCK: 0, TDI: 0, TDO: 0, TMS: 1, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          4
+JTAG speed: 2000 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.
+Application running ...
+Build target 'STM32F407'
+compiling main.c...
+..\MyLibaries\key.h(3): warning:  #1-D: last line of file ends without a newline
+..\User\main.c(64): warning:  #177-D: variable "k" was declared but never referenced
+..\User\main.c(158): warning:  #1-D: last line of file ends without a newline
+linking...
+Program Size: Code=24248 RO-data=3084 RW-data=56 ZI-data=1040  
+FromELF: creating hex file...
+"LED.axf" - 0 Error(s), 3 Warning(s).
+Load "D:\\360data\\重要数据\\桌面\\移动平台京信\\Project\\LED.axf" 
+Set JLink Project File to "D:\360data\重要数据\桌面\移动平台京信\Project\JLinkSettings.ini"
+* JLink Info: Device "STM32F407VG" selected (1024 KB flash, 128 KB RAM).
+ 
+JLink info:
+------------
+DLL: V4.68a, compiled Apr 12 2013 13:26:50
+Firmware: J-Link ARM V8 compiled Nov 14 2012 22:34:52
+Hardware: V8.00
+S/N : 17935099 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash 
+ 
+* JLink Info: Found SWD-DP with ID 0x2BA01477
+* JLink Info: Found SWD-DP with ID 0x2BA01477
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info: FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: Found Cortex-M4 r0p1, Little endian.
+ROMTableAddr = 0xE00FF003
+ 
+Target info:
+------------
+Device: STM32F407VG
+VTarget = 3.300V
+State of Pins: 
+TCK: 0, TDI: 0, TDO: 0, TMS: 1, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          4
+JTAG speed: 2000 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.
+Application running ...
+Load "D:\\360data\\重要数据\\桌面\\移动平台京信\\Project\\LED.axf" 
+Set JLink Project File to "D:\360data\重要数据\桌面\移动平台京信\Project\JLinkSettings.ini"
+* JLink Info: Device "STM32F407VG" selected (1024 KB flash, 128 KB RAM).
+ 
+JLink info:
+------------
+DLL: V4.68a, compiled Apr 12 2013 13:26:50
+Firmware: J-Link ARM V8 compiled Nov 14 2012 22:34:52
+Hardware: V8.00
+S/N : 17935099 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash 
+ 
+* JLink Info: Found SWD-DP with ID 0x2BA01477
+* JLink Info: Found SWD-DP with ID 0x2BA01477
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info: FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: Found Cortex-M4 r0p1, Little endian.
+ROMTableAddr = 0xE00FF003
+ 
+Target info:
+------------
+Device: STM32F407VG
+VTarget = 3.313V
+State of Pins: 
+TCK: 0, TDI: 0, TDO: 0, TMS: 1, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          4
+JTAG speed: 2000 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.
+Application running ...
+Build target 'STM32F407'
+compiling main.c...
+..\MyLibaries\key.h(3): warning:  #1-D: last line of file ends without a newline
+..\User\main.c(64): warning:  #177-D: variable "k" was declared but never referenced
+..\User\main.c(158): warning:  #1-D: last line of file ends without a newline
+linking...
+Program Size: Code=24248 RO-data=3084 RW-data=56 ZI-data=1040  
+FromELF: creating hex file...
+"LED.axf" - 0 Error(s), 3 Warning(s).
+Load "D:\\360data\\重要数据\\桌面\\移动平台京信\\Project\\LED.axf" 
+Set JLink Project File to "D:\360data\重要数据\桌面\移动平台京信\Project\JLinkSettings.ini"
+* JLink Info: Device "STM32F407VG" selected (1024 KB flash, 128 KB RAM).
+ 
+JLink info:
+------------
+DLL: V4.68a, compiled Apr 12 2013 13:26:50
+Firmware: J-Link ARM V8 compiled Nov 14 2012 22:34:52
+Hardware: V8.00
+S/N : 17935099 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash 
+ 
+* JLink Info: Found SWD-DP with ID 0x2BA01477
+* JLink Info: Found SWD-DP with ID 0x2BA01477
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info: FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: Found Cortex-M4 r0p1, Little endian.
+ROMTableAddr = 0xE00FF003
+ 
+Target info:
+------------
+Device: STM32F407VG
+VTarget = 3.313V
+State of Pins: 
+TCK: 0, TDI: 0, TDO: 0, TMS: 1, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          4
+JTAG speed: 2000 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.
+Application running ...
+Build target 'STM32F407'
+compiling main.c...
+..\MyLibaries\key.h(3): warning:  #1-D: last line of file ends without a newline
+..\User\main.c(64): warning:  #177-D: variable "k" was declared but never referenced
+..\User\main.c(158): warning:  #1-D: last line of file ends without a newline
+linking...
+Program Size: Code=24248 RO-data=3084 RW-data=56 ZI-data=1040  
+FromELF: creating hex file...
+"LED.axf" - 0 Error(s), 3 Warning(s).
+Load "D:\\360data\\重要数据\\桌面\\移动平台京信\\Project\\LED.axf" 
+Set JLink Project File to "D:\360data\重要数据\桌面\移动平台京信\Project\JLinkSettings.ini"
+* JLink Info: Device "STM32F407VG" selected (1024 KB flash, 128 KB RAM).
+ 
+JLink info:
+------------
+DLL: V4.68a, compiled Apr 12 2013 13:26:50
+Firmware: J-Link ARM V8 compiled Nov 14 2012 22:34:52
+Hardware: V8.00
+S/N : 17935099 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash 
+ 
+* JLink Info: Found SWD-DP with ID 0x2BA01477
+* JLink Info: Found SWD-DP with ID 0x2BA01477
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info: FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: Found Cortex-M4 r0p1, Little endian.
+ROMTableAddr = 0xE00FF003
+ 
+Target info:
+------------
+Device: STM32F407VG
+VTarget = 3.313V
+State of Pins: 
+TCK: 0, TDI: 0, TDO: 0, TMS: 1, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          4
+JTAG speed: 2000 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.
+Application running ...
