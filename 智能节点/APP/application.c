@@ -25,7 +25,8 @@ void loop_work()
 {
 	u8 cmd=0;
 	UartProcessData(3,NULL,&cmd); //状态机读取
-	LCD_ShowxNum(156,300,cmd,3,16,0);//显示ADC的值
+	if(cmd)
+		LCD_ShowxNum(156,300,cmd,3,16,0);//显示ADC的值
 	switch(cmd)
 	{
 		case 0x01:   //关灯
@@ -39,12 +40,12 @@ void loop_work()
 			GPIO_ResetBits(GPIOA, GPIO_Pin_10);
 			break;
 		case 0x04:   //风扇一档
-			GPIO_ResetBits(GPIOA, GPIO_Pin_9);
-			GPIO_SetBits(GPIOA, GPIO_Pin_10);
+			GPIO_SetBits(GPIOA, GPIO_Pin_9);		
+ 	  	GPIO_ResetBits(GPIOA, GPIO_Pin_10);
 			break;
 		case 0x05:   //风扇二档
-			GPIO_SetBits(GPIOA, GPIO_Pin_9);
-			GPIO_ResetBits(GPIOA, GPIO_Pin_10);
+			GPIO_ResetBits(GPIOA, GPIO_Pin_9);
+			GPIO_SetBits(GPIOA, GPIO_Pin_10);
 			break;
 		case 0x06:   //状态读取
 			break;

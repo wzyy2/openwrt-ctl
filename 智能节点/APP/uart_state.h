@@ -4,7 +4,7 @@
 #include "MyF4Config.h"
 
 
-#define __USART3_STATE
+
 
 #define SOP_STATE 0
 #define LEN_STATE 1

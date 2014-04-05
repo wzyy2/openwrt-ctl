@@ -3,65 +3,75 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:paddingBottom="@dimen/activity_vertical_margin"
-    android:paddingLeft="0dp"
-    android:paddingRight="0dp"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context=".MainActivity" >
 
     <RelativeLayout
+        android:id="@+id/relativeLayout1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentLeft="true"
         android:layout_alignParentRight="true"
         android:layout_alignParentTop="true"
-        android:layout_marginTop="32dp" >
-        <Button
+        android:layout_marginTop="30dp"
+        android:background="@drawable/shape_bak"
+        android:paddingBottom="15dp"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:paddingTop="15dp" >
+
+        <ImageButton
             android:id="@+id/button1"
             android:layout_width="98dp"
             android:layout_height="160dp"
             android:layout_alignParentRight="true"
             android:layout_alignParentTop="true"
-            android:background="#ff0000"
+            android:background="@drawable/untitled"
+            android:src="@xml/closeled"
             android:text="关灯" />
 
-        <Button
+        <ImageButton
             android:id="@+id/button2"
             android:layout_width="98dp"
             android:layout_height="160dp"
             android:layout_alignParentLeft="true"
             android:layout_alignParentTop="true"
-            android:background="#00CD00"
+            android:background="@drawable/gezi3"
+            android:src="@xml/openled"
             android:text="开灯" />
     </RelativeLayout>
 
     <LinearLayout
+        android:id="@+id/linearLayout1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginBottom="70dp" >
+        android:layout_marginBottom="40dp" >
 
         <Button
             android:id="@+id/button3"
-            android:layout_width="70dp"
-            android:layout_height="45dp"
-            android:background="@drawable/shape"
+            android:layout_width="80dp"
+            android:layout_height="120dp"
+            android:background="@xml/btn03"
             android:text="1" />
 
         <Button
             android:id="@+id/button4"
-            android:layout_width="70dp"
-            android:layout_height="45dp"
-            android:layout_marginLeft="5dp"
-            android:layout_marginRight="5dp"
-            android:background="@drawable/shape3"
+            android:layout_width="80dp"
+            android:layout_height="120dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:background="@xml/btn05"
             android:text="2" />
 
         <Button
             android:id="@+id/button5"
-            android:layout_width="70dp"
-            android:layout_height="45dp"
-            android:background="@drawable/shape2"
+            android:layout_width="80dp"
+            android:layout_height="120dp"
+            android:background="@xml/btn04"
             android:text="3" />
     </LinearLayout>
 
@@ -71,8 +81,32 @@
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginBottom="34dp"
+        android:layout_marginBottom="5dp"
         android:text="风扇"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/relativeLayout1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:orientation="vertical" >
+
+        <Gallery
+            android:id="@+id/gallery1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/TextView01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView1"
+        android:layout_marginTop="0dp"
+        android:text="电灯"
         android:textAppearance="?android:attr/textAppearanceLarge" />
 
 </RelativeLayout>

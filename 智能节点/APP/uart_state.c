@@ -30,15 +30,16 @@ u8 UartState_init()
 		uart_queue.front[i]=0;
 		uart_queue.rear[i]=0;
 	}
-#ifndef __USART1_STATE
+//#ifndef __USART1_STATE
 	uart_queue.head[0] = &usart1_buffer[0];
-#endif
-#ifndef __USART2_STATE
+//#endif
+//#ifndef __USART2_STATE
 	uart_queue.head[1] = &usart2_buffer[0];
-#endif
-#ifndef __USART3_STATE
+//#endif
+//#ifndef __USART3_STATE
 	uart_queue.head[2] = &usart3_buffer[0];
-#endif
+//#endif
+
 	return 0;
 }
 
@@ -148,11 +149,13 @@ void UartProcessData(u8 port,u8* data,u8* cmd)
       case SOP_STATE:
         if (ch == UART_SOF)
           state = LEN_STATE;
+				printf("1");
         break;
 				
       case LEN_STATE:
         LEN_Token = ch;
         state = CMD_STATE;
+							printf("2");
         break;
 			
       case CMD_STATE:
@@ -165,6 +168,7 @@ void UartProcessData(u8 port,u8* data,u8* cmd)
         {
           state = SOP_STATE;
         }
+								printf("3");
         break;
 
       case DATA_STATE:
