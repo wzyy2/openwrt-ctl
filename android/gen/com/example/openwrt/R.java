@@ -33,19 +33,21 @@ public final class R {
         public static final int gezi5=0x7f020009;
         public static final int gezi6=0x7f02000a;
         public static final int gezi7=0x7f02000b;
-        public static final int ic_launcher=0x7f02000c;
-        public static final int lamp_active=0x7f02000d;
-        public static final int lamp_inactive=0x7f02000e;
-        public static final int light=0x7f02000f;
-        public static final int light_fan=0x7f020010;
-        public static final int shape=0x7f020011;
-        public static final int shape2=0x7f020012;
-        public static final int shape2_fan=0x7f020013;
-        public static final int shape3=0x7f020014;
-        public static final int shape3_fan=0x7f020015;
-        public static final int shape_bak=0x7f020016;
-        public static final int shape_fan=0x7f020017;
-        public static final int untitled=0x7f020018;
+        public static final int gnu_head=0x7f02000c;
+        public static final int ic_launcher=0x7f02000d;
+        public static final int lamp_active=0x7f02000e;
+        public static final int lamp_inactive=0x7f02000f;
+        public static final int light=0x7f020010;
+        public static final int light_fan=0x7f020011;
+        public static final int linux_head=0x7f020012;
+        public static final int shape=0x7f020013;
+        public static final int shape2=0x7f020014;
+        public static final int shape2_fan=0x7f020015;
+        public static final int shape3=0x7f020016;
+        public static final int shape3_fan=0x7f020017;
+        public static final int shape_bak=0x7f020018;
+        public static final int shape_fan=0x7f020019;
+        public static final int untitled=0x7f02001a;
     }
     public static final class id {
         public static final int TextView01=0x7f09000a;

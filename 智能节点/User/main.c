@@ -2,6 +2,7 @@
 #include "bsp.h"
 #include "application.h"
 
+//我注释了fputc 要是想用printf发送 自己取消掉 
 
 int main(void)
 {

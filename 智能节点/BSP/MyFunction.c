@@ -4,8 +4,8 @@
 /*********串口输出重定向**********/
 int fputc(int ch , FILE *f)
 {
-	USART_SendData(COM_PORT1 , (uint8_t)ch);
-	while( USART_GetFlagStatus (COM_PORT1 , USART_FLAG_TC ) == RESET);
+	//USART_SendData(COM_PORT1 , (uint8_t)ch);
+	//while( USART_GetFlagStatus (COM_PORT1 , USART_FLAG_TC ) == RESET);
 	return ch;
 }
 

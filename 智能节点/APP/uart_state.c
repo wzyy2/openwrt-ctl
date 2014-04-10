@@ -31,10 +31,10 @@ u8 UartState_init()
 		uart_queue.rear[i]=0;
 	}
 //#ifndef __USART1_STATE
-	uart_queue.head[0] = &usart1_buffer[0];
+//	uart_queue.head[0] = &usart1_buffer[0];
 //#endif
 //#ifndef __USART2_STATE
-	uart_queue.head[1] = &usart2_buffer[0];
+//	uart_queue.head[1] = &usart2_buffer[0];
 //#endif
 //#ifndef __USART3_STATE
 	uart_queue.head[2] = &usart3_buffer[0];

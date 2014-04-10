@@ -11,6 +11,7 @@
 u32 device_init()
 {
   LCD_Init();  //初始LCD
+
 	
 	return 0;
 }
@@ -30,22 +31,22 @@ void loop_work()
 	switch(cmd)
 	{
 		case 0x01:   //关灯
-			GPIO_ResetBits(GPIOA, GPIO_Pin_8);
-			break;
-		case 0x02:   //开灯
 			GPIO_SetBits(GPIOA, GPIO_Pin_8);
 			break;
+		case 0x02:   //开灯
+			GPIO_ResetBits(GPIOA, GPIO_Pin_8);
+			break;
 		case 0x03:   //风扇关
-			GPIO_ResetBits(GPIOA, GPIO_Pin_9);
-			GPIO_ResetBits(GPIOA, GPIO_Pin_10);
+			GPIO_SetBits(GPIOA, GPIO_Pin_9);
+			GPIO_SetBits(GPIOA, GPIO_Pin_10);
 			break;
 		case 0x04:   //风扇一档
-			GPIO_SetBits(GPIOA, GPIO_Pin_9);		
- 	  	GPIO_ResetBits(GPIOA, GPIO_Pin_10);
+			GPIO_ResetBits(GPIOA, GPIO_Pin_9);		
+ 	  	GPIO_SetBits(GPIOA, GPIO_Pin_10);
 			break;
 		case 0x05:   //风扇二档
-			GPIO_ResetBits(GPIOA, GPIO_Pin_9);
-			GPIO_SetBits(GPIOA, GPIO_Pin_10);
+			GPIO_SetBits(GPIOA, GPIO_Pin_9);
+			GPIO_ResetBits(GPIOA, GPIO_Pin_10);
 			break;
 		case 0x06:   //状态读取
 			break;
