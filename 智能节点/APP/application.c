@@ -6,7 +6,7 @@
 #include "key.h"  
 #include "counter.h"   //编码器
 #include "uart_state.h"
-
+#include "oled.h"
 
 u32 device_init()
 {
@@ -19,6 +19,7 @@ u32 application_init()
 {
 	device_init();
 	UartState_init();  //状态机初始化
+	OLED_Init();
 	return 0;
 }
 
@@ -28,6 +29,13 @@ void loop_work()
 	UartProcessData(3,NULL,&cmd); //状态机读取
 	if(cmd)
 		LCD_ShowxNum(156,300,cmd,3,16,0);//显示ADC的值
+	//OLED_SDA=1;
+	OLED_SDA=1;
+	OLED_SCL=1;
+	OLED_DC=1;
+	OLED_RST=1;
+	//OLED_Setxy(0,0);
+	//OLED_Fill(0xff);
 	switch(cmd)
 	{
 		case 0x01:   //关灯
