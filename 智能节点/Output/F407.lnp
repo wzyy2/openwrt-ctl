@@ -11,6 +11,7 @@
 "..\output\key.o"
 "..\output\lcd.o"
 "..\output\5110.o"
+"..\output\oled.o"
 "..\output\adc.o"
 "..\output\bsp.o"
 "..\output\counter.o"

@@ -474,6 +474,11 @@
               <FileType>1</FileType>
               <FilePath>..\DEV\5110.c</FilePath>
             </File>
+            <File>
+              <FileName>oled.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\DEV\oled.c</FilePath>
+            </File>
           </Files>
         </Group>
         <Group>

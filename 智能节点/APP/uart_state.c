@@ -172,7 +172,7 @@ void UartProcessData(u8 port,u8* data,u8* cmd)
         break;
 
       case DATA_STATE:
-				state = SOP_STATE;
+        state = SOP_STATE;
         break;
 			
       case FCS_STATE:

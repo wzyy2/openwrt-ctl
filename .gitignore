@@ -8,6 +8,13 @@
 bin/
 tmp/
 *.tmp
+*.o
+*.crf
+*.tmp
+*.d
+*.axf
+*.hex
+*.htm
 *.bak
 *.swp
 *~.nib

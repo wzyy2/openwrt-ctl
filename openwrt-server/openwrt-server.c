@@ -117,8 +117,7 @@ int8_t com_init()
 
         struct termios opt;
         fd = open("/dev/ttyATH0", O_RDWR|O_NOCTTY|O_NDELAY);
-        if(fd == -1)
-        {
+        if(fd == -1){
                 perror("open serial 0\n");
                 exit(0);  
         }
@@ -149,8 +148,7 @@ int8_t com_init()
 
         printf("configure complete\n");
 
-        if(tcsetattr(fd, TCSANOW, &opt) != 0)
-        {
+        if(tcsetattr(fd, TCSANOW, &opt) != 0){
                 perror("serial error");
                 return -1;
         }

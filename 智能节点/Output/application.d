@@ -44,3 +44,4 @@
 ..\output\application.o: ..\DEV\key.h
 ..\output\application.o: ..\BSP\counter.h
 ..\output\application.o: ..\APP\uart_state.h
+..\output\application.o: ..\DEV\oled.h
